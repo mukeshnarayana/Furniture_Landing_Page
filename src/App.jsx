@@ -21,6 +21,7 @@ import facebook from './assets/001-facebook.svg'
 import twitter from './assets/003-twitter.svg'
 import instagram from './assets/004-instagram.svg'
 import rightarr from './assets/rightarr.png'
+import union from './assets/union.png'
 
 
 
@@ -268,12 +269,12 @@ function App() {
                       <img src={dining} alt=""  className='shadow-xl '/>
                   </div>
              </div>
-             <div className='pt-30 flex flex-col items-center gap-3'>
+             <div className='pt-30 flex flex-col items-center gap-5'>
                    <p className='text-amber-600 text-[18px] font-normal font-[Gilroy-SemiBold] tracking-[3.15px]'>Testimonials</p>
                    <p className='text-[42px] font-bold capitalize'>Our Client Reviews</p>
                    <div className='flex flex-row gap-5'>
                          <div className='w-[370px] h-[476px] bg-[url(./assets/image1.png)] bg-cover bg-center bg-no-repeat relative'>
-                              <div className='w-[334px] h-[239px] bg-[url(./assets/union.png)] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
+                              <div style={{ backgroundImage: `url(${union})` }} className='w-[334px] h-[239px] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
                                  <div className='w-[66px] h-[66px] bg-white rounded-full p-[8px] ml-33'>
                                     <img src={person}alt="" className='rounded-full'/>
                                 </div>
@@ -282,7 +283,7 @@ function App() {
                                    <p className='text-[12px] font-[Gilroy]'>Pedagang Asongan</p>
                                 </div>
                                 <div className='flex flex-col gap-2 items-center mt-5'>
-                                      <p className=' text-[14px] font-normal text-center'>“Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal“</p>
+                                      <p className=' text-[14px] font-normal text-center'>"Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal"</p>
                                       <div className='flex flex-row gap-1'>
                                            <img src={star} alt="" />
                                            <img src={star} alt="" />
@@ -294,7 +295,7 @@ function App() {
                               </div>
                          </div>
                          <div className='w-[370px] h-[476px] bg-[url(./assets/image2.png)] bg-cover bg-center bg-no-repeat relative'>
-                              <div className='w-[334px] h-[239px] bg-[url(./assets/union.png)] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
+                              <div style={{ backgroundImage: `url(${union})` }} className='w-[334px] h-[239px] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
                                 <div className='w-[66px] h-[66px] bg-white rounded-full p-[8px] ml-33'>
                                     <img src={person1}alt="" className='rounded-full'/>
                                 </div>
@@ -303,7 +304,7 @@ function App() {
                                    <p className='text-[12px] font-[Gilroy]'>Pedagang Asongan</p>
                                 </div>
                                 <div className='flex flex-col gap-2 items-center mt-5'>
-                                      <p className=' text-[14px] font-normal text-center'>“Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal“</p>
+                                      <p className=' text-[14px] font-normal text-center'>"Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal"</p>
                                       <div className='flex flex-row gap-1'>
                                            <img src={star} alt="" />
                                            <img src={star} alt="" />
@@ -315,7 +316,7 @@ function App() {
                               </div>
                          </div>
                          <div div className='w-[370px] h-[476px] bg-[url(./assets/image3.png)] bg-cover bg-center bg-no-repeat relative'>
-                              <div className='w-[334px] h-[239px] bg-[url(./assets/union.png)] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
+                              <div style={{ backgroundImage: `url(${union})` }} className='w-[334px] h-[239px] bg-cover bg-center bg-no-repeat relative mt-[220px] ml-[15px]'>
                               <div className='w-[66px] h-[66px] bg-white rounded-full p-[8px] ml-33'>
                                     <img src={person2}alt="" className='rounded-full'/>
                                 </div>
@@ -324,7 +325,7 @@ function App() {
                                    <p className='text-[12px] font-[Gilroy]'>Pedagang Asongan</p>
                                 </div>
                                 <div className='flex flex-col gap-2 items-center mt-5'>
-                                      <p className=' text-[14px] font-normal text-center'>“Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal“</p>
+                                      <p className=' text-[14px] font-normal text-center'>"Terimakasih banyak, kini ruanganku<br/> menjadi lebih mewah dan terlihat <br/>mahal"</p>
                                       <div className='flex flex-row gap-1'>
                                            <img src={star} alt="" />
                                            <img src={star} alt="" />
