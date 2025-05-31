@@ -21,7 +21,7 @@ import facebook from './assets/001-facebook.svg'
 import twitter from './assets/003-twitter.svg'
 import instagram from './assets/004-instagram.svg'
 import rightarr from './assets/rightarr.png'
-import union from './assets/union.png'
+import union from './assets/Union.png'
 
 
 
